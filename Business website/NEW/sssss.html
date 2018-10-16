@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<title>Wedding Website</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+.mySlides {display:none;}
+
+.row
+{
+font-family:Arial Rounded MT Bold;
+color:#CFB53B;
+
+background-color:Black;
+}
+.nav{
+width:100%;
+background:none;
+height:50px;
+margin-top:0px;
+
+
+}
+
+ul
+{
+list-style:none;
+margin:0;
+position:absolute;
+}
+li
+{
+float:left;
+margin-top:15px;
+}
+a
+{
+width:200px;
+color:Black;
+display:block;
+text:decoration:none;
+font-size:20px;
+text-align:center;
+padding:10px;
+border-radius:10px;
+font-family:Century Gothic;
+font-weight:bold;
+}
+a:hover
+{
+background:gold;
+trasition:0.2s;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+
+div.gallery img {
+    width: 150%;
+    height: 150%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+</style>
+<body>
+
+
+<div class="nav">
+<ul>
+<li><a href="file:///C:/Users/HP/Desktop/city/Business%20website/FINAL.html"><i class="fa fa-home"></i>
+Home</a></li>
+<li><a href="file:///C:/Users/HP/Desktop/city/Personal%20resume/About.html"><i class="fa fa-user"></i>About</a></li>
+<li><a href="file:///C:/Users/HP/Desktop/city/Personal%20resume/experiance.html"><i class="fa fa-star-o"></i>Card Designs</a></li>
+<li><a href="file:///C:/Users/HP/Desktop/city/Personal%20resume/education.html"><i class="fa fa-book"></i>Services</a></li>
+
+<li><a href="file:///C:/Users/HP/Desktop/city/Personal%20resume/interest.html"><i class="fa fa-smile-o"></i>Order</a></li>
+<li><a href="file:///C:/Users/HP/Desktop/city/Personal%20resume/contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+</ul>
+</div>
+
+
+
+
+<div class="row">
+  <div class="column" style="background-color:Black;">
+ <h5 ><i class="fa fa-phone"></i>9096880347   <i class="fa fa-envelope"></i>sonam.97shinde@gmail.com</h5>
+      </div>
+
+
+
+<div class="row">
+  <div class="column" style="background-color:Black;">
+    <h5 style="font-size:150%; text-align:Center">REGAL CARDS</h5>
+      </div>
+
+
+<div class="row">
+  <div class="column" style="background-color:Black;">
+    <h5 style="text-align:Center;">Register / Login</h5>
+      </div>
+
+
+
+
+
+<div class="w3-content w3-section" style="max-width:1300px" "max-height:1200px">
+  <img class="mySlides" src="a1.jpg" style="width:100%"  >
+  <img class="mySlides" src="a2.jpg" style="width:100%" >
+  <img class="mySlides" src="a3.jpg" style="width:100%" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+<div class="sapna" style="margin-top: 30px; text-align:Center;">
+ <h3 style="font-family: 'Conv_CaviarDreams'; text-transform: uppercase;">---------------Latest Collection---------------</h3>
+ </div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p1.jpg" >
+      <img src="p1.jpg" alt="Trolltunga Norway" width="600" height="200">
+    </a>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p2.jpg">
+      <img src="p2.jpg" alt="Forest" width="600" height="400">
+    </a>
+
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p3.jpg">
+      <img src="p3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="p6.jpg">
+      <img src="p6.jpg" alt="Mountains" width="600" height="400">
+    </a>
+ 
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+
+
+
+
+</body>
+</html>
